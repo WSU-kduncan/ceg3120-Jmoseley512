@@ -5,8 +5,8 @@ import discord
 import random
 from dotenv import load_dotenv
 
-intents = discord.Intents.default()
-intents.message_content = True
+#intents = discord.Intents.default()
+#intents.message_content = True
 
 
 
