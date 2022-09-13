@@ -1,6 +1,6 @@
 ## Jonathan Moseley
-## CEG-3120
-## Project 1
+# CEG-3120
+# Project 1
 
 ## Discord Bot documentation
 
