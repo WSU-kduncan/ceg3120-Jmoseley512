@@ -5,18 +5,20 @@ Jonathan Moseley
 ## Discord Bot documentation
 
 1. Setup
-   Dependencies needed: Python3, pip3, dotenv, discord.py
+   1. Dependencies needed: Python3, pip3, dotenv, discord.py
    
-   How to get an API token: When a new bot is created you request an API token by using the 2FA code setup with discord. This must be copied as discord will not show it again
+   2. How to get an API token: When a new bot is created you request an API token by using the 2FA code setup with discord. This must be copied as discord will not show it again
    
-   Where to put API token in code: create a seperate file called .env where the API token will go in a DISCORD_TOKEN variable. 
+   3. Where to put API token in code: create a seperate file called .env where the API token will go in a DISCORD_TOKEN variable. 
    (This file ***must*** be put in the .gitignore file to disable git tracking and potental lekage of the sensitive API token)
    
 2. Usage
    With your changes to the code in place, describe:
-       1. What commands can you type in your discord server: In the server I can type code% 
-       2. What response this will provde from your bot: The response will be parts of the RMS GNU/Linux copypasta
-   Screenshots:
+   1. What commands can you type in your discord server: Command to use is ```code%``` 
+   
+   2.  What response this will provde from your bot: The response will be parts of the RMS GNU/Linux copypasta
+       
+   Usage Screenshot:
    ![Discord_Screenshot](https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Discord-Bot/Bot.png)
    
 3. Research
