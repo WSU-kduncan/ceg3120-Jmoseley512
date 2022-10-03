@@ -38,5 +38,7 @@ Create a VPC:
 6. I associated a security group with my instance at the time of creation. When I switched my VPC to the one I created I could select "associate with existing security group". From there I was able to select the security group I created. 
 7. A elastic IP was reserved in the "Elastic IP section of the AWS dashboard. From there I could reserve an IP address; afterwards using thr dropdown menu I could select the instance to associate the elastic IP with. 
 8. ![Moseley-instance](https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Project2/Images/Moseley-instance.png)
-9. Currently I hvae been unable to establish an SSH connection with my instance. I have attempted to reform everything from scratch and still no success getting a connection. Even when using Amazon's tools to connect in the webconsole it does not allow me to connect. Curreently I have been unable to figure out the issue on where it may be originating. 
+9. Currently I hvae been unable to establish an SSH connection with my instance. I have attempted to reform everything from scratch and still no success getting a connection. Even when using Amazon's tools to connect in the webconsole it does not allow me to connect. Curreently I have been unable to figure out the issue on where it may be originating. I have made sure to keep defaults where they are, and follow project directions exactly.
+
+![AWS-nossh](https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Project2/Images/Aws-no-ssh.png)
 
