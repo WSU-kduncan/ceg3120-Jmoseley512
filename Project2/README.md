@@ -29,6 +29,8 @@ Create a VPC:
 # Part 2 - EC2 instances
 
 1. Ami Selected: Amazon Linux 2
+
+
   1.5: Default username: ec2-user 
   
 2. The instance was attached to the VPC in the inital creation. By selecting 'edit' in the network section I was able to switch from the default VPC to my new new VPC
