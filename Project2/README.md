@@ -28,8 +28,10 @@ Create a VPC:
 
 # Part 2 - EC2 instances
 
-1. Ami Selected: Ubuntu 
-  1.5: Default username: ubuntu 
+1. Ami Selected: Amazon Linux 2
+
+
+  1.5: Default username: ec2-user 
   
 2. The instance was attached to the VPC in the inital creation. By selecting 'edit' in the network section I was able to switch from the default VPC to my new new VPC
 3. By default a public IP will not be assigned. I have opted to not auto assign a public IP due to the fact an elastic IP will overrite the auto-assigned public IP of the instance. 
@@ -38,7 +40,8 @@ Create a VPC:
 6. I associated a security group with my instance at the time of creation. When I switched my VPC to the one I created I could select "associate with existing security group". From there I was able to select the security group I created. 
 7. A elastic IP was reserved in the "Elastic IP section of the AWS dashboard. From there I could reserve an IP address; afterwards using thr dropdown menu I could select the instance to associate the elastic IP with. 
 8. ![Moseley-instance](https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Project2/Images/Moseley-instance.png)
-9. Currently I hvae been unable to establish an SSH connection with my instance. I have attempted to reform everything from scratch and still no success getting a connection. Even when using Amazon's tools to connect in the webconsole it does not allow me to connect. Curreently I have been unable to figure out the issue on where it may be originating. I have made sure to keep defaults where they are, and follow project directions exactly.
+9. I changed the hostname of my AMI using the command ```sudo hostnamectl set-hostname Moseley-AmazonLinux2``` then used ```sudo reboot``` to reboot the machine for this to take effect.
 
-![AWS-nossh](https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Project2/Images/Aws-no-ssh.png)
+10.:
+![AWS-ssh](https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Project2/Images/AWS-SSH-newhost.png)
 
