@@ -174,7 +174,7 @@ Resources:
           DeviceIndex: '0'
           DeleteOnTermination: 'true'
           SubnetId: !Ref PublicSubnet
-          PrivateIpAddress: 10.0.0.3 # EC Private ip between 0 and 15
+          PrivateIpAddress: 10.0.0.8 # EC Private ip between 0 and 15
       UserData:
         Fn::Base64:
           !Sub |
@@ -208,7 +208,7 @@ Resources:
           DeviceIndex: '0'
           DeleteOnTermination: 'true'
           SubnetId: !Ref PrivateSubnet
-          PrivateIpAddress: 10.0.0.4 # TODO make sure unique to the instance
+          PrivateIpAddress: 10.0.1.7 # TODO make sure unique to the instance
       UserData:
         Fn::Base64:
           !Sub |
@@ -243,7 +243,7 @@ Resources:
           DeviceIndex: '0'
           DeleteOnTermination: 'true'
           SubnetId: !Ref PrivateSubnet
-          PrivateIpAddress: 10.0.0.5 # TODO make sure unique to the instance
+          PrivateIpAddress: 10.0.1.8 # TODO make sure unique to the instance
       UserData:
         Fn::Base64:
           !Sub |
