@@ -24,8 +24,8 @@
 
 5.1 webserv1
 
-[!Webserv1](https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Project4/Images/webserv-1.png)
+![Webserv1](https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Project4/Images/webserv-1.png)
 
 5.2 webserv2
 
-[!Webserv2)(https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Project4/Images/webserv-2.png)
+![Webserv2](https://github.com/WSU-kduncan/ceg3120-Jmoseley512/blob/main/Project4/Images/webserv-2.png)
