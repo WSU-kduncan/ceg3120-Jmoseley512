@@ -145,7 +145,7 @@ Resources:
         - IpProtocol: tcp
           FromPort: '80'
           ToPort: '80'
-          CidrIp: 0.0.0.0/32
+          CidrIp: 0.0.0.0/0
       Tags: 
         - Key: Name
           Value: P4-sg
