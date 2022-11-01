@@ -28,7 +28,9 @@
 
 4.4 to restart a service the command would be ```sudo systemctl restart apache2```
 
-5. Browser screenshots
+
+5:
+Browser screenshots
 
 5.1 webserv1
 
